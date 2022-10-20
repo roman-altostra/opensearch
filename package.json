@@ -1,0 +1,23 @@
+{
+  "name": "opensearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roman-altostra/opensearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roman-altostra/opensearch/issues"
+  },
+  "homepage": "https://github.com/roman-altostra/opensearch#readme",
+  "dependencies": {
+    "@opensearch-project/opensearch": "^2.0.0",
+    "aws-opensearch-connector": "^1.1.0"
+  }
+}

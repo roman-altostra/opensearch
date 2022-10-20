@@ -1,0 +1,43 @@
+{
+	"id": "opensearch",
+	"name": "opensearch",
+	"type": "altostra",
+	"description": "An empty project template",
+	"created": "2022-10-20T00:37:46.057Z",
+	"blueprints": [
+		{
+			"version": "2019-10-24",
+			"connections": {},
+			"resources": {
+				"OpensearchGet01": {
+					"type": "resource.compute.function",
+					"name": "opensearchGet",
+					"memory": 512,
+					"timeout": 6,
+					"entryPoint": "functions/opensearchGet.handler",
+					"runtime": "nodejs16.x",
+					"packageType": "zip",
+					"layers": [],
+					"environment": {
+						"variables": {}
+					},
+					"id": "OpensearchGet01"
+				}
+			},
+			"metadata": {
+				"designer": {
+					"resourcePositions": {
+						"OpensearchGet01": {
+							"x": 567.8385009765625,
+							"y": 313.671875,
+							"z": 0
+						}
+					}
+				}
+			},
+			"id": "opensearch",
+			"name": "opensearch",
+			"unsafe": false
+		}
+	]
+}
